@@ -1,0 +1,8 @@
+{
+  "name": "devops-toolkit",
+  "description": "DevOps toolkit with CI/CD, Docker, Kubernetes, and infrastructure-as-code patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "kimliss"
+  }
+}

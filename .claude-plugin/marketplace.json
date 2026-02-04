@@ -1,0 +1,96 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/anthropics/claude-code@latest/schemas/marketplace.json",
+  "name": "claude-plugins-inhand",
+  "description": "Claude Code Plugin Marketplace - A curated collection of development plugins organized by scenario.",
+  "version": "2.0.0",
+  "owner": {
+    "name": "kimliss"
+  },
+  "categories": [
+    "development",
+    "backend",
+    "frontend",
+    "mobile",
+    "devops",
+    "database"
+  ],
+  "plugins": [
+    {
+      "name": "dev-toolkit",
+      "source": "./plugins/dev-toolkit",
+      "description": "General-purpose development toolkit with agents, contexts, skills, and hooks for enhanced Claude Code workflows.",
+      "category": "development",
+      "tags": ["agents", "code-review", "tdd", "security", "planning"]
+    },
+    {
+      "name": "go-dev",
+      "source": "./plugins/go-dev",
+      "description": "Go development plugin with gopls LSP support, Go-specific agents, and project scaffolding.",
+      "category": "backend",
+      "tags": ["go", "golang", "gopls", "backend"]
+    },
+    {
+      "name": "java-dev",
+      "source": "./plugins/java-dev",
+      "description": "Java/Spring development plugin with jdtls LSP support and Spring Boot patterns.",
+      "category": "backend",
+      "tags": ["java", "spring", "spring-boot", "jdtls", "maven", "gradle"]
+    },
+    {
+      "name": "python-dev",
+      "source": "./plugins/python-dev",
+      "description": "Python development plugin with Pyright LSP support, Django/FastAPI patterns.",
+      "category": "backend",
+      "tags": ["python", "django", "fastapi", "flask", "pyright"]
+    },
+    {
+      "name": "vue-dev",
+      "source": "./plugins/vue-dev",
+      "description": "Vue.js development plugin with Vue Language Server support and component patterns.",
+      "category": "frontend",
+      "tags": ["vue", "vuejs", "nuxt", "vite", "frontend"]
+    },
+    {
+      "name": "react-dev",
+      "source": "./plugins/react-dev",
+      "description": "React/Next.js development plugin with component patterns and state management.",
+      "category": "frontend",
+      "tags": ["react", "nextjs", "typescript", "jsx", "frontend"]
+    },
+    {
+      "name": "android-dev",
+      "source": "./plugins/android-dev",
+      "description": "Android development plugin with Kotlin/Jetpack Compose patterns.",
+      "category": "mobile",
+      "tags": ["android", "kotlin", "jetpack-compose", "mobile"]
+    },
+    {
+      "name": "ios-dev",
+      "source": "./plugins/ios-dev",
+      "description": "iOS/Swift development plugin with sourcekit-lsp support and SwiftUI patterns.",
+      "category": "mobile",
+      "tags": ["ios", "swift", "swiftui", "xcode", "sourcekit-lsp"]
+    },
+    {
+      "name": "flutter-dev",
+      "source": "./plugins/flutter-dev",
+      "description": "Flutter development plugin with Dart Language Server support and cross-platform patterns.",
+      "category": "mobile",
+      "tags": ["flutter", "dart", "cross-platform", "mobile"]
+    },
+    {
+      "name": "devops-toolkit",
+      "source": "./plugins/devops-toolkit",
+      "description": "DevOps toolkit with CI/CD, Docker, Kubernetes, and infrastructure-as-code patterns.",
+      "category": "devops",
+      "tags": ["devops", "docker", "kubernetes", "ci-cd", "terraform", "infrastructure"]
+    },
+    {
+      "name": "database-toolkit",
+      "source": "./plugins/database-toolkit",
+      "description": "Database toolkit with schema design, query optimization, and migration patterns.",
+      "category": "database",
+      "tags": ["database", "sql", "postgresql", "mysql", "mongodb", "redis"]
+    }
+  ]
+}

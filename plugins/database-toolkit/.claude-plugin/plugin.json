@@ -1,0 +1,8 @@
+{
+  "name": "database-toolkit",
+  "description": "Database toolkit with schema design, query optimization, and migration patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "kimliss"
+  }
+}

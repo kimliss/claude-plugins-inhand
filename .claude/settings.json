@@ -1,0 +1,48 @@
+{
+  "plugins": {
+    "dev-toolkit": {
+      "source": "./plugins/dev-toolkit",
+      "enabled": true
+    },
+    "go-dev": {
+      "source": "./plugins/go-dev",
+      "enabled": true
+    },
+    "java-dev": {
+      "source": "./plugins/java-dev",
+      "enabled": true
+    },
+    "python-dev": {
+      "source": "./plugins/python-dev",
+      "enabled": true
+    },
+    "vue-dev": {
+      "source": "./plugins/vue-dev",
+      "enabled": true
+    },
+    "react-dev": {
+      "source": "./plugins/react-dev",
+      "enabled": true
+    },
+    "android-dev": {
+      "source": "./plugins/android-dev",
+      "enabled": true
+    },
+    "ios-dev": {
+      "source": "./plugins/ios-dev",
+      "enabled": true
+    },
+    "flutter-dev": {
+      "source": "./plugins/flutter-dev",
+      "enabled": true
+    },
+    "devops-toolkit": {
+      "source": "./plugins/devops-toolkit",
+      "enabled": true
+    },
+    "database-toolkit": {
+      "source": "./plugins/database-toolkit",
+      "enabled": true
+    }
+  }
+}

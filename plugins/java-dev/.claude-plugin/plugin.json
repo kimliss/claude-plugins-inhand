@@ -1,0 +1,8 @@
+{
+  "name": "java-dev",
+  "description": "Java/Spring development plugin with jdtls LSP support and Spring Boot patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "kimliss"
+  }
+}

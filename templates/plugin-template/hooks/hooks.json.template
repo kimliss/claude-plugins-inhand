@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "mkdir -p ${CLAUDE_PROJECT_DIR}/.claude/rules/{{PLUGIN_NAME}} && cp ${CLAUDE_PLUGIN_ROOT}/rules/*.md ${CLAUDE_PROJECT_DIR}/.claude/rules/{{PLUGIN_NAME}}/ 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}
