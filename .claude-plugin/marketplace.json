@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "inhand-claude-code-plugins",
+  "name": "claude-plugins-inhand",
   "description": "A curated collection of development plugins organized by scenario, covering backend, frontend, mobile, DevOps and database workflows.",
   "version": "2.0.0",
   "owner": {
