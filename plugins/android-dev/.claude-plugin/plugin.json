@@ -1,0 +1,8 @@
+{
+  "name": "android-dev",
+  "description": "Android development plugin with Kotlin/Jetpack Compose patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "kimliss"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "react-dev",
+  "description": "React/Next.js development plugin with component patterns and state management.",
+  "version": "1.0.0",
+  "author": {
+    "name": "kimliss"
+  }
+}

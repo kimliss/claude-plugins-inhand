@@ -1,0 +1,35 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "mkdir -p ${CLAUDE_PROJECT_DIR}/.claude/.inhand/{logs,cache,data,temp}"
+          }
+        ]
+      },
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "mkdir -p ${CLAUDE_PROJECT_DIR}/.claude/rules/dev-toolkit && cp ${CLAUDE_PLUGIN_ROOT}/rules/*.md ${CLAUDE_PROJECT_DIR}/.claude/rules/dev-toolkit/ 2>/dev/null || true"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '\"\\(.tool_input.command) - \\(.tool_input.description // \"No description\")\"' >> ${CLAUDE_PROJECT_DIR}/.claude/.inhand/logs/bash-command-log.txt"
+          }
+        ]
+      }
+    ]
+  }
+}

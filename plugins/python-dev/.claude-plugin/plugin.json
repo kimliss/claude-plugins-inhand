@@ -1,0 +1,8 @@
+{
+  "name": "python-dev",
+  "description": "Python development plugin with Pyright LSP support, Django/FastAPI patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "kimliss"
+  }
+}

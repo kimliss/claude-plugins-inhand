@@ -1,0 +1,8 @@
+{
+  "name": "flutter-dev",
+  "description": "Flutter development plugin with Dart Language Server support and cross-platform patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "kimliss"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ios-dev",
+  "description": "iOS/Swift development plugin with sourcekit-lsp support and SwiftUI patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "kimliss"
+  }
+}

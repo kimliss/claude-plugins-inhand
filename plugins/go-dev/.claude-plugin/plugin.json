@@ -1,0 +1,8 @@
+{
+  "name": "go-dev",
+  "description": "Go development plugin with gopls LSP support, Go-specific agents, and project scaffolding.",
+  "version": "1.0.0",
+  "author": {
+    "name": "kimliss"
+  }
+}
